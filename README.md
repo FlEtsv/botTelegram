@@ -9,7 +9,7 @@ Este proyecto consiste en el desarrollo de un bot en Python utilizando la librer
 Para utilizar correctamente este bot, se debe instalar junto con la ***web [SensorStats](https://github.com/FlEtsv/sensorStats)***. Una vez completada la instalación y registro del bot, siga los siguientes pasos:
 
 1. Asegúrese de tener Docker y Docker Compose instalados en su sistema.
-2. Descargue la imagen del bot desde Docker Hub.
+2. Descargue la imagen del bot desde Docker Hub. ***[imagen docker](https://hub.docker.com/repository/docker/fletsv/bottelegram)***
 3. Cree un contenedor utilizando la imagen descargada.
 4. Asigne un nombre al contenedor.
 5. En el apartado de volúmenes, añada un nuevo volumen que requerirá dos rutas:
