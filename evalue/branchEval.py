@@ -43,7 +43,7 @@ def action():
                 if data["autonomia"] < autonomia_limit:
                     mensaje += f"Alerta el valor de autonomia es {data['autonomia']}\n"
             if temperaturaIs_active:
-                if data["temperatura"] > temperatura_limit:
+                if data["temperatura"] >= temperatura_limit:
                     mensaje += f"Alerta el valor de temperatura es {data['temperatura']}\n"
             if bateriaIs_active:
                 if data["nivel"] < bateria_limit:

@@ -87,3 +87,11 @@ def obtenerChatId():
     if row:
         return row[0]
     return None
+
+def verificar_chat_id(chat_id):
+    conn, cursor = ObtenerConexion()
+    cursor.execute('SELECT chat_id FROM users WHERE chat_id = ?', (chat_id,))
+    row = cursor.fetchone()
+    if row:
+        return True
+    return False
